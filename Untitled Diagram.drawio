@@ -1,9 +1,177 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T21:13:55.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.6" etag="GESK4vUb0kaQ9EWqWFnA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T01:04:43.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="J8WMAoBi_bz6PY7qgVin" version="23.1.6" type="github">
   <diagram name="Page-1" id="ftDs-hwG2WiY_9FR2xhQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2147" dy="638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="feslZH4oowgPRjI28yk1-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Classification&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="75" y="77" width="109" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-2" target="feslZH4oowgPRjI28yk1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-2" value="Embeddings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="113" width="101" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-3" target="feslZH4oowgPRjI28yk1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-3" value="Bert Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="189" width="101" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-4" target="feslZH4oowgPRjI28yk1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-4" value="LSTM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="148" width="86" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-5" target="feslZH4oowgPRjI28yk1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-5" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="148" width="101" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-6" value="Linear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="148" width="101" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Part of Speech Ablation&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="71" y="278" width="175" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-18" target="feslZH4oowgPRjI28yk1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-18" value="I love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-19" value="[MASK] love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-22" target="feslZH4oowgPRjI28yk1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-22" value="I love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-23" value="I [MASK] apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="523" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-25" value="Mask each part of speech in the test set, repeat testing by 10 times for each part of speech.&lt;br&gt;A new trained classifier should be used for each testing round" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="81" y="300" width="504" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-26" value="Mask Subject Pronouns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="390" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-27" value="Mask Verbs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="540" width="81" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-31" target="feslZH4oowgPRjI28yk1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-31" value="I love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="675.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-32" value="I [MASK] apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="675.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-33" value="Mask Nouns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="21" y="694.5" width="85" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-37" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="338" width="192" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-34" value="Train the Model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="344" width="112" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-35" value="Test on [MASK] love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="387" width="161" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-36" value="Record Accuracy Metric" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="430" width="145" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-39" value="Repeat 10 Times" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="387" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-40" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="488" width="192" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-41" value="Train the Model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="494" width="112" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-42" value="Test on I [MASK] apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="537" width="161" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-43" value="Record Accuracy Metric" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498" y="580" width="145" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-44" value="Repeat 10 Times" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="677" y="537" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-45" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="642" width="192" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-46" value="Train the Model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="648" width="112" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-47" value="Test on [MASK] love apples" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="691" width="161" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-48" value="Record Accuracy Metric" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498" y="734" width="145" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-49" value="Repeat 10 Times" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="677" y="691" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-51" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Swing Sentences&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="822" width="133" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-52" target="feslZH4oowgPRjI28yk1-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-52" value="[CLS] I love applies.[SEP] I like to drink apple juice. [SEP] I live to eat apple pie [SEP]." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="896" width="183" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-53" target="feslZH4oowgPRjI28yk1-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-53" target="feslZH4oowgPRjI28yk1-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-53" value="[CLS] [MASK] [MASK]&amp;nbsp;[MASK]&amp;nbsp;&lt;br&gt;[SEP] I like to drink apple juice. [SEP] I live to eat apple pie [SEP]." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="805" width="306" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-54" target="feslZH4oowgPRjI28yk1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-54" value="[CLS] I love applies.[SEP][MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[SEP] I live to eat apple pie [SEP]." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="896" width="312" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-55" target="feslZH4oowgPRjI28yk1-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-55" target="feslZH4oowgPRjI28yk1-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-55" value="[CLS] I love applies.[SEP] I like to drink apple juice. [SEP] [MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;[MASK]&amp;nbsp;&lt;br&gt;&amp;nbsp;[SEP]." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="991" width="311" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-62" value="Check if prediction changed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="802" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-63" value="Check if prediction changed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="894.5" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-64" value="Check if prediction changed" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="989.5" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-69" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;GAN&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="122" y="1132" width="49" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feslZH4oowgPRjI28yk1-70" target="feslZH4oowgPRjI28yk1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feslZH4oowgPRjI28yk1-70" value="Dataset" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="113" width="98" height="33" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
